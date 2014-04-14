@@ -61,7 +61,6 @@ class UpstartUnicornLauncher
     reexecute_running_binary
     wait_for_with_timeout { old_pid }
     wait_for_server_to_start
-    quit_old_master
   end
 
   def reexecute_running_binary
